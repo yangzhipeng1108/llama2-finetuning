@@ -39,3 +39,4 @@ deepspeed main.py \
    --gradient_checkpointing \
    --output_dir $OUTPUT \
    &> $OUTPUT/training.log
+
